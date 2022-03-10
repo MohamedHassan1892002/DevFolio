@@ -1,0 +1,181 @@
+
+/* star navbar  */
+.navbar-expand-lg{ 
+  background-color: rgba(0, 0, 0, 0.842) !important;
+  z-index: 9999;
+  padding: 1rem 0;
+}
+/* start headar  */
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imges/hero-bg.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+header::after {
+  content: "";
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.527);
+  position: absolute;
+}
+header div {
+  position: relative;
+  z-index: 222;
+  color: white;
+}
+header div h1 {
+  font-size: 4rem;
+  margin: 10px 0;
+  font-weight: 600 !important;
+}
+header div p {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+/* end header  */
+
+/* start about */
+
+.about img{
+    border-radius: 10px;
+}
+.about ul{
+    list-style: none;
+    padding:  0;
+}
+.about ul li{
+    padding: 0.5rem;
+}
+.about ul li span{
+    font-weight: 600;
+}
+/* end about */
+
+/* start  SERVICES */
+.SERVICES .item:hover svg{
+  color: #0077ff70;
+}
+/* end  SERVICES */
+
+/* strat number */
+
+.number{
+  background-image: url(../imges/post-3.jpg);
+  background-size:cover;
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+}
+.number .layer{
+  position: absolute;
+  background-color: #0077ff70;
+  width: 100%;
+  height: 100%;
+}
+.number .container{
+  padding: 6rem;
+}
+.number .fa-circle{
+  font-size: 8rem;
+}
+.number .fa-check{
+  right: 35%;
+  top: 35%;
+}
+.number div{
+  z-index: 222;
+  color: white;
+}
+
+/* end number */
+
+/* start PORTFOLIO */
+
+.PORTFOLIO .item{
+  overflow: hidden;
+}
+.PORTFOLIO .item .photo{
+  overflow: hidden;
+}
+.PORTFOLIO .item img{
+  transition:transform 0.5s ;
+}
+.PORTFOLIO .item:hover img{
+  transform: scale(1.2);
+}
+/* end PORTFOLIO */
+
+
+/* start slide */
+.slider{
+  background-image: url(../imges/overlay-bg.jpg);
+  background-size: cover;
+  position: relative;
+}
+.slider .layer{
+  position: absolute;
+  background-color: #0077ffc2;
+  width: 100%;
+  height: 100%;
+}
+
+/* end slide */
+.blog .item p a{
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.blog .item .text-black:hover{
+  color: #0077ffc2 !important;
+}
+
+/* start contact  */
+.contact{
+  background-image: url(../imges/overlay-bg.jpg);
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.contact .layer{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #0077ff8c;
+}
+
+
+/* end contact  */
+
+
+/* media  */
+
+/* X large  */
+@media screen and (max-width: 1200px) {
+}
+/* large */
+@media screen and (max-width: 992px) {
+  /* html {
+    font-size: 18px;
+  } */
+}
+/* Medium */
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+/* Small */
+@media screen and (max-width: 576px) {
+  /* html {
+    font-size: 10px;
+  } */
+}
